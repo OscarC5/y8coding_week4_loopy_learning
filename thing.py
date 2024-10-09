@@ -1,6 +1,7 @@
 from os import system
 
 from time import sleep
+clear = lambda : system("clear")
 
 x = 0x1F600
 while True:
@@ -10,6 +11,6 @@ while True:
             print(chr(j+x), end="")
             j += 1
         print()
-    sleep(0.01)
-    system("cls")
+    sleep(0.00001)
+    clear()
     x += 1
