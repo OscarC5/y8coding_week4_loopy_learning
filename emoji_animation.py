@@ -17,43 +17,42 @@ clear = lambda : system("clear")
 #       """)                                        
 # sleep(1)
 clear()
-name = input("""
-             
-             
-             
-             
-             
-             
-             
-             
-             
-            insert random name here:   """)
+a = """
 
-sleep(1)
+"""
+b = a*5
+print("customize your monster!")
+print(a*2)
+name = input("insert name here:   ")
+print("pick a monster")
+sleep (0.5)
+print("""
+      zombie🧟‍♂️
+      skeleton💀
+      vampire🧛‍♂️
+      ghost👻
+      """)
+sleep(0.5)
+monstername= input("tipe the name of one of the monsters above!(whitout emoji)")
+if monstername == "zombie":
+    monster = "🧟‍♂️"
+elif monstername == "skeleton":
+    monster = "💀"
+elif monstername == "vampire":
+    monster = "🧛‍♂️"
+elif monstername == "ghost":
+    monster = "👻"
+else:
+    print("sorry, that is not a monster. your monster is now a ghost")
+    monster = "👻"
+    monstername = "ghost"
 clear()
+print("There was one a dude named",name,)
+sleep(1.5)
+print(name,"decided to go for a walk")
 
-x = 100
-y = x/2
-z = x/3
-a = x * x/2
-for i in range(x):
-      print("💀" * a)
-      print("💀" * z)
-      print("There ")
-      sleep(0.5)
-      print("once ")
-      sleep(0.5)
-      print("was ")
-      sleep(0.5)
-      print(" a ")
-      sleep(0.5)
-      print("clown ")
-      sleep(0.5)
-      print("named ")
-      sleep(0.5)
-      print("bob")
-      # print("💀"* x / 3)
-      # print("💀"* x / 2)
-
-sleep(1)
-clear()
+for i in range(100):
+      clear()
+      print(b)
+      print(' ' * i + "😐")    
+      sleep(0.1)
