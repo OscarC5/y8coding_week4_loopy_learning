@@ -83,7 +83,7 @@ for i in range(2):
 	print("🐧 Penguin")   
 	for j in range(3):	
 	    print("🐔 Chicken")
-	print("🦉 Owl")
+	 print("🦉 Owl")
 	
 
 print("\nTASK 13 HERE\n")

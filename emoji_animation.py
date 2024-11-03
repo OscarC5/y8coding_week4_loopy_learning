@@ -2,20 +2,28 @@ from os import system
 from time import sleep
 clear = lambda : system("clear")
 
-# clear()
-# sleep(0.5)
-# print("""🫥Oscar's
-#       """)
-# sleep(1)
-# print("""         😵Horror
-#       """)
-# sleep(1)
-# print("""                 😄Emoji
-#       """)
-# sleep(1)
-# print("""                        🎉Hilarity
-#       """)                                        
-# sleep(1)
+clear()
+sleep(0.5)
+print("""🫥 Oscar's
+
+
+
+      """)
+sleep(1)
+print("""         😵Horror
+
+
+
+      """)
+sleep(1)
+print("""                 😄Emoji
+
+
+
+      """)
+sleep(1)
+print("                          🎉Hilarity")                                        
+sleep(1)
 clear()
 a = """
 
@@ -33,7 +41,7 @@ print("""
       ghost👻
       """)
 sleep(0.5)
-monstername= input("tipe the name of one of the monsters above!(whitout emoji)")
+monstername= input("type the name of one of the monsters above!(whitout emoji)")
 if monstername == "zombie":
     monster = "🧟‍♂️"
 elif monstername == "skeleton":
@@ -47,7 +55,7 @@ else:
     monster = "👻"
     monstername = "ghost"
 clear()
-print("There was one a dude named",name,)
+print("There was one a person named",name,)
 sleep(1.5)
 print(name,"decided to go for a walk")
 
@@ -55,4 +63,12 @@ for i in range(100):
       clear()
       print(b)
       print(' ' * i + "😐")    
-      sleep(0.1)
+      sleep(0.05)
+g = " "
+t = g * 25
+for i in range(50):
+      clear()
+      print(b)
+      print(' ' * i + "😐",t,"🕳️")    
+      sleep(0.05)
+      t -= 1
