@@ -51,24 +51,55 @@ elif monstername == "vampire":
 elif monstername == "ghost":
     monster = "👻"
 else:
-    print("sorry, that is not a monster. your monster is now a ghost")
+    clear()
+    print(b)
     monster = "👻"
+    print("sorry, that is not a monster. your monster is now a ghost",monster)
     monstername = "ghost"
+    sleep(1)
+
+
+#scene 1
+
 clear()
-print("There was one a person named",name,)
+print("There was once a person named",name,)
 sleep(1.5)
 print(name,"decided to go for a walk")
-
+sleep(1)
+g = (" " * 50)
+k = ("""
+""")
 for i in range(100):
-      clear()
-      print(b)
-      print(' ' * i + "😐")    
-      sleep(0.05)
-g = " "
-t = g * 25
+    clear()
+    print(b)
+    print(" " * i + "😐")
+    sleep(0.05)
+clear()
+print(name," wasn't the brightest and fell into a hole")
+sleep(1)
 for i in range(50):
       clear()
-      print(b)
-      print(' ' * i + "😐",t,"🕳️")    
+      print(b," " * i + "😐")  
+      print(g,"🕳️")
       sleep(0.05)
-      t -= 1
+clear()
+print(k,b,g,"🕳️")
+sleep(2)
+clear()
+#scene 2
+hi = " 🪦 🪦 🪦 🪦 🪦 🪦 🪦 🪦 🪦 🪦 🪦 🪦"
+print(b,"5 years later...")
+sleep(1)
+clear()
+print(b,g,"🪦",hi)
+sleep(1)
+clear()
+print(b,g,monster,hi)
+sleep(1)
+clear()
+print(name,"woke up as a",monstername,"!")
+sleep(1)
+clear()
+print(name,"decided to explore the graveyard")
+
+for i in range():
