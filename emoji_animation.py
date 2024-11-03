@@ -100,6 +100,4 @@ clear()
 print(name,"woke up as a",monstername,"!")
 sleep(1)
 clear()
-print(name,"decided to explore the graveyard")
-
-for i in range():
+print(name,"the",monstername,"decided to explore the graveyard")
